@@ -19,5 +19,5 @@ function predict(image) {
 
 (async () => {
   window.model = await tf.loadLayersModel('model/model.json');
-  console.log('model loaded!');
+  console.log('Modelo carregado!');
 })()
